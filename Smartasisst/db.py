@@ -10,7 +10,7 @@ def crear_base():
     )
 
     conexion = sqlite3.connect(
-        "datos/reclamos.db"#Configuren C.........\\datos\\reclamos.db para windows
+        "C:/Users/leand/OneDrive/Desktop/Smartasisst/datos/reclamos.db"#Configuren C.........\\datos\\reclamos.db para windows
     )
 
     cursor = conexion.cursor()#sin el curso no hay consulta. Puntero
