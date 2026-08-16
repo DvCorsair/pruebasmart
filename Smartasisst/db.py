@@ -42,7 +42,7 @@ def guardar_reclamo(
 ):
 
     conexion = sqlite3.connect(
-        "datos/reclamos.db"
+        "C:/Users/leand/OneDrive/Desktop/Smartasisst/datos/reclamos.db"
     )
 
     cursor = conexion.cursor()
